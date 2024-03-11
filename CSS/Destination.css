@@ -1,0 +1,101 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Caveat", cursive;
+}
+
+.wrapper
+{
+    width: 100%;
+    min-height: 100px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #180A0A; */
+}
+
+.header
+{   
+    width: 100%;
+    min-height: 50px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    background-color: #B67352;
+}
+
+.companyname
+{
+    flex-basis: 20%;
+    padding: 50px;
+    color:white;
+    font-size: 30px;
+    
+}
+
+.header-menu
+{
+    flex-basis: 75%;
+    min-height: 50px;
+    /* border: 1px solid black; */
+    padding: 40px;
+}
+
+.header-menu a
+{
+    text-decoration: none;
+    color:white;
+    padding: 40px;
+    font-size: 30px;
+    font-weight: 1000;
+}
+
+.header-menu a:hover
+{
+    /* color:#eb3131; */
+    color: #B3A398;
+}
+
+.header-menu ul
+{
+    list-style: none;
+    text-align: center;
+}
+
+.header-menu ul li
+{
+    display: inline;
+}
+
+.container
+{
+    width: 100%;
+    min-height: 100px;
+    border: 1px solid black;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.beach
+{
+    flex-basis: 45%;
+    min-height: 50px;
+    border: 1px solid black;
+    /* color: white;  */
+    /* font-size: 2em; */
+}
+
+.adventure
+{
+    flex-basis: 45%; 
+    min-height: 50px;
+    border: 1px solid black;
+     /* color: white;  */
+    font-size: 3em;
+}
