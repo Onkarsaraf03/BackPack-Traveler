@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .destination
+{
+    /* border: 1px solid #000; */
+    width: 100%;
+    height: 800px;
+    background-color: #F3F3F3;
+}
+
+/* ---text--- */
+.des-text
+{
+    /* border: 1px solid #000; */
+    width: 100%;
+    height: 150px;
+    text-align: center;
+}
+.des-text h3
+{
+    color: #7AB730;
+    font-size: 20px;
+    padding-top: 20px;
+}
+.des-text h1
+{
+    font-size: 50px;
+    padding-top: 10px;
+}
+.destination-imgs
+{
+    /* border: 1px solid #ef3838; */
+    width: 100%;
+    height: 650px;
+    position: relative;
+}
+
+/* ---box_img--- */
+.box-a
+{
+    /* border: 1px solid #000; */
+    width: 100%;
+    height: 45%;
+    display: flex;
+    padding-right: 100px;
+    padding-left: 100px;
+    gap: 20px;
+}
+.box-b
+{
+    /* border: 1px solid #000; */
+    width: 100%;
+    height: 45%;
+    display: flex;
+    padding-right: 100px;
+    padding-left: 100px;
+    margin-top: 20px;
+    gap: 20px;
+}
+/* ------------- */
+.image-container {
+    position: relative;
+    overflow: hidden;
+    width: 33.33%;
+    height: auto;
+}
+
+/* Image styling */
+.destination-image {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Text overlay styling */
+.text-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+/* Text overlay animation on hover */
+.image-container:hover .text-overlay {
+    opacity: 1;
+}
+    </style>
+</head>
+<body>
+    <div class="destination">
+        <div class="des-text">
+            <h3>DESTINATION</h3>
+            <h1>Explore Top Destination</h1>
+        </div>
+
+        <div class="destination-imgs">
+
+            <div class="box-a">
+
+                <div class="image-container">
+                    <img class="destination-image" src="/UI/image/project/pexels-alok-kumar-15031440.jpg" alt="">
+                    <div class="text-overlay">
+                        <h1>UTTRAKHAND</h1>
+                    </div>
+                </div>
+
+                <div class="image-container">
+                    <img class="destination-image" src="/UI/image/project/pexels-prakasam-r-774282.jpg" alt="">
+                    <div class="text-overlay">
+                        <h1>CHENNAI</h1>
+                    </div>
+                </div>
+
+                <div class="image-container">
+                    <img class="destination-image" src="/UI/image/project/pexels-peter-patel-11835217.jpg" alt="">
+                    <div class="text-overlay">
+                        <h1>GUJARAT</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box-b">
+
+                <div class="image-container">
+                    <img class="destination-image" src="/UI/image/project/pexels-sanket-barik-7846563.jpg" alt="Destination 1">
+                    <div class="text-overlay">
+                       <h1>JAMMU & KASHMIR</h1>
+                    </div>
+                </div>
+
+                <div class="image-container">
+                    <img class="destination-image" src="/UI/image/project/pexels-shivam-tak-4481330.jpg" alt="Destination 2">
+                    <div class="text-overlay">
+                        <h1>MAHARASHTRA</h1>
+                    </div>
+                </div>
+
+                <div class="image-container">
+                    <img class="destination-image" src="/UI/image/project/pexels-ankush-rathi-925069.jpg" alt="Destination 2">
+                    <div class="text-overlay">
+                        <h1>RAJASTHAN</h1>
+                    </div>
+                </div>
+                
+            </div>
+          
+        </div>
+    </div>
+</body>
+</html>
