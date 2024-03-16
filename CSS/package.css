@@ -1,9 +1,66 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Caveat", cursive;
+    background-color: #F3F3F3;
+}
+.header
+{   
+    width: 100%;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.companyname
+{
+    flex-basis: 20%;
+    padding: 50px;
+    color:black;
+    font-size: 30px;
+    
+}
+
+.header-menu
+{
+    flex-basis: 75%;
+    min-height: 50px;
+    padding: 40px;
+}
+
+.header-menu a
+{
+    text-decoration: none;
+    color:black;
+    padding: 40px;
+    font-size: 30px;
+    font-weight: 1000;
+}
+
+.header-menu a:hover
+{
+    color: #B3A398;
+}
+
+.header-menu ul
+{
+    list-style: none;
+    text-align: center;
+}
+
+.header-menu ul li
+{
+    display: inline;
+}
+
+
 .packages
 {
     /* border: 1px solid #000; */
     width: 100%;
     height: 1100px;
-    background-color: #F3F3F3;
 }
 .pack-text
 {
@@ -366,4 +423,17 @@
 {
     font-size: 27px;
     padding-left: 120px;
+}
+
+footer 
+{
+    /* background-color:black; */
+    background-color: #F3F3F3;
+    /* color: #fff; */
+    color: black;
+    text-align: center;
+    padding: 25px;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
 }
